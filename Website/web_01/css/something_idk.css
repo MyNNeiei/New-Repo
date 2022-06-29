@@ -1,0 +1,21 @@
+.myfav img{
+    height: 300px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.all-fav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px 10px;
+}
+.p{
+   text-align: right;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+
