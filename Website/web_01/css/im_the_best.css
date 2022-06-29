@@ -1,0 +1,30 @@
+.me{
+    box-shadow: 10px 20px;
+    width: 30%;
+    border-radius: 10px;
+    align-items: center;
+}
+.me img{
+    width: 100%;
+    border-color: wheat;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.me p{
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact svg{
+    width: 24px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
