@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+}
+
+#food{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+#food img{
+    height: 500px;
+}
