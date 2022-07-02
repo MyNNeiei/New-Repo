@@ -36,3 +36,8 @@
     max-width: 800px;
     margin: 2rem auto;
 }
+
+.p{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+ }
