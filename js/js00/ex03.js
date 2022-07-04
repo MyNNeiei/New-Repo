@@ -1,6 +1,5 @@
 let a = 50
-let b = 100
-console.log('Enter radius:', a);
-console.log('Diameter', b ,'units');
-console.log('Circumference =', 2*(22/7)*a ,'sq.','units');
-console.log('Area =', (22/7)*a*a ,'sq.','units');
+let b = 4
+console.log('Enter length:', a);
+console.log('Enter width:', b);
+console.log('Perimeter of rectangle =', a*b ,'sq.','units');
