@@ -3,7 +3,7 @@ let b = 80;
 let c = 90;
 let d = 80;
 let f = 80;
-const Percentage = ((b+c+f)*100)/400
+const Percentage = ((a+b+c+d+f)*100)/400
 console.log('Enter marks of five subjects:' ,a);
 console.log(b);
 console.log(c);
