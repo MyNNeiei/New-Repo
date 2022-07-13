@@ -1,5 +1,5 @@
-let a = 50
-let b = 4
-console.log('Enter length:', a);
-console.log('Enter width:', b);
+var redlineSync = require('readline-sync');
+
+let a = redlineSync.question('Enter length: ')
+let b = redlineSync.question('Enter width: ')
 console.log('Perimeter of rectangle =', a*b ,'sq.','units');

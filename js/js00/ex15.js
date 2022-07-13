@@ -1,7 +1,8 @@
-let p = 1200;
-let r = 2;
-let t = 5.4;
-console.log('Enter principle:',p);
-console.log('Enter time:',r);
-console.log('Enter rate:',t)
-console.log('Simple Interest =',(p*r*t)/100)
+var redlineSync = require('readline-sync');
+
+let p = redlineSync.question('Enter principle: ');
+let r = redlineSync.question('Enter time: ');
+let t = redlineSync.question('Enter rate: ');
+c = (Number(p)*Number(r)*Number(t))/100
+c = c.toFixed(6)
+console.log('Simple Interest =',c)

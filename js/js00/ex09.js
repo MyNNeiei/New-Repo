@@ -1,5 +1,6 @@
-let a = 5
-let b = 2
-console.log('Enter base:', a);
-console.log('Enter exponent:', b);
-console.log('5^2 =',a**b);
+var redlineSync = require('readline-sync');
+
+let a = redlineSync.question('Enter base: ')
+let b = redlineSync.question('Enter exponent: ')
+let c = a**b
+console.log(a,'^',b ,'=' , c);

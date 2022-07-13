@@ -1,14 +1,15 @@
-let a = 70;
-let b = 80;
-let c = 90;
-let d = 80;
-let f = 80;
-const Percentage = ((a+b+c+d+f)*100)/400
-console.log('Enter marks of five subjects:' ,a);
-console.log(b);
-console.log(c);
-console.log(d);
-console.log(f);
-console.log('Total :' ,a+b+c+d+f);
-console.log('Average :', (a+b+c+d+f)/5);
-console.log('Percentage : ' ,Percentage)
+var redlineSync = require('readline-sync')
+
+let a = redlineSync.question('Enter marks of five subjects: ')
+let b = redlineSync.question('');
+let c = redlineSync.question('');
+let d = redlineSync.question('');
+let f = redlineSync.question('');
+
+const percentage = ((Number(a)+Number(b)+Number(c)+Number(d)+Number(f))*100)/400
+let total = Number(a)+Number(b)+Number(c)+Number(d)+Number(f)
+const average = (Number(a)+Number(b)+Number(c)+Number(d)+Number(f))/5
+
+console.log('Total :' ,total);
+console.log('Average :',average );
+console.log('Percentage : ',percentage)

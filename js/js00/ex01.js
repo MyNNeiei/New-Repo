@@ -1,7 +1,8 @@
-let a = 5
-let b = 5
- console.log('First number :', a);
- console.log('Second number :', b);
+
+var redlineSync = require('readline-sync');
+
+let a = redlineSync.question('First number : ');
+let b = redlineSync.question('Second number : ');
  console.log('sum = ', a+b);
  console.log('Difference =', a-b);
  console.log('Product =', a*b);
